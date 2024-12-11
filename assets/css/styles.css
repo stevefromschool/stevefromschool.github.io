@@ -16,14 +16,16 @@ body {
 }
 
 .dark-bg * { 
-    color: rgb(196, 196, 196);
+    color: rgb(150, 150, 150);
 }
 
 .dark-bg h1,
+.dark-bg h2,
 .dark-bg button i,
 .dark-bg button small,
-.dark-bg #greeting-icon i {
-    color: white;
+.dark-bg #greeting-icon i,
+.dark-bg a {
+    color: rgb(160, 160, 160);
 }
 
 .seasonal-bg.winter-theme {
@@ -37,13 +39,14 @@ body {
 .seasonal-bg.winter-theme h2,
 .seasonal-bg.winter-theme button i,
 .seasonal-bg.winter-theme button small,
-.seasonal-bg.winter-theme #greeting-icon i { 
+.seasonal-bg.winter-theme #greeting-icon i,
+.seasonal-bg.winter-theme a {
     color: rgb(119, 140, 205);
 }
 
 /* Christmas Theme */
 .seasonal-bg.christmas-theme {
-    background-color: rgb(210, 0, 0);
+    background-color: rgb(145, 0, 0);
 }
 
 .seasonal-bg.christmas-theme * {
@@ -54,25 +57,27 @@ body {
 .seasonal-bg.christmas-theme h2,
 .seasonal-bg.christmas-theme button i,
 .seasonal-bg.christmas-theme button small,
-.seasonal-bg.christmas-theme #greeting-icon i {
-    color: rgb(0, 77, 73);
+.seasonal-bg.christmas-theme #greeting-icon i,
+.seasonal-bg.christmas-theme a {
+    color: rgb(245, 213, 33);
 }
 
 /* New Years Theme */
 .seasonal-bg.ny-theme {
-    background-color: rgb(41, 41, 41);
+    background-color: rgb(24, 24, 24);
 }
 
 .seasonal-bg.ny-theme * {
-    color: rgb(255, 255, 255);
+    color: rgb(198, 198, 198);
 }
 
 .seasonal-bg.ny-theme h1,
 .seasonal-bg.ny-theme h2,
 .seasonal-bg.ny-theme button i,
 .seasonal-bg.ny-theme button small,
-.seasonal-bg.ny-theme #greeting-icon i {
-    color: rgb(255, 221, 0);
+.seasonal-bg.ny-theme #greeting-icon i,
+.seasonal-bg.ny-theme a {
+    color: rgb(255, 216, 99);
 }
 
 button {
@@ -129,5 +134,5 @@ small {
 
 .loves {
     border: 1px solid rgb(255, 255, 255, 0.5);
-    border-radius: 10px;
+    border-radius: 6px;
 }
