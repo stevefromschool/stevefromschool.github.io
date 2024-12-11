@@ -7,8 +7,8 @@ body {
 }
 
 .customizer span {
-    font-size: 1.2em;
-    padding-left: 8px; 
+    font-size: 1.1em;
+    padding: 0 4px; 
 }
 
 .dark-bg {
@@ -85,6 +85,7 @@ button {
     color: rgba(255, 255, 255, 0.75);
     border: none;
     text-align: center;
+    margin: 0 5px;
 }
 
 button:hover {
