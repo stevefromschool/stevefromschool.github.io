@@ -1,26 +1,12 @@
 // Get current month as number
 
-function darkMode() {
-    var darkPicker = document.querySelector("#bg-picker");
-    darkPicker.classList.remove("seasonal-bg");
-    darkPicker.classList.remove("default-bg");
-    darkPicker.classList.toggle("dark-bg");
-}
-
-function seasonalMode() {
-    var seasonalPicker = document.querySelector("#bg-picker");
-    seasonalPicker.classList.remove("dark-bg");
-    seasonalPicker.classList.remove("default-bg");
-    seasonalPicker.classList.toggle("seasonal-bg");
-}
-
-
 var currentMonth = new Date().getMonth();
 
-    // Test other months
-    // var currentMonth = currentMonth - 11;
-    // console.log(currentMonth);
+// Test for other months
+// var currentMonth = currentMonth - 11;
+// console.log(currentMonth);
 
+    // Apply different styles depending on current month
     if (currentMonth === 11) {
         // December
         document.getElementById("bg-picker").classList.add('christmas-theme');
@@ -56,7 +42,6 @@ var currentMonth = new Date().getMonth();
         document.getElementById("bg-picker").classList.add('winter-theme');
         document.querySelector("button.seasonal-button span").innerText = 'Winter Theme';
         document.querySelector("button.seasonal-button i").classList.add('fa-snowflake');
-
     }
 
 
