@@ -1,10 +1,16 @@
 
-// 
-var favItems = document.querySelectorAll(".loves ul li");
+// Only start after the whole DOM has loaded
+window.addEventListener("load", function(){
 
-// Get number through console
-console.log(favItems.length);
+// Loop through all <li> tags and count 
+    var favItems = document.querySelectorAll("ul#favsList li");
 
-for (var i = 0; i < favItems.length; i++) {
-    document.getElementById("favs").innerText = favItems.length;
-}
+    // Get number through console
+    console.log(favItems.length);
+
+    // Count and insert into #favsTotal
+    for (var i = 0; i < favItems.length; i++) {
+      document.getElementById("favsTotal").innerText = favItems.length;
+    }
+
+});

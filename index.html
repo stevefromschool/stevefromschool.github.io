@@ -27,28 +27,44 @@
 
   <body id="bg-picker" class="default-bg">
 
-    <div class="customizer d-flex justify-content-end p-4 ">
+    <!-- CUSTOMIZER -->
+    <div class="customizer d-flex justify-content-end p-4">
       
       <button onclick="darkMode()" class="dark-button" title="Click to toggle dark mode">
         <i class="fa fa-solid fa-circle-half-stroke"></i>
         <span>Dark Mode</span>
       </button>
+
       &nbsp;
 
       <button onclick="seasonalMode()" class="seasonal-button" title="Click to toggle seasonal theme">
         <i class="fa fa-solid"></i>
         <span>Seasonal Theme</span>
       </button>
+
       &nbsp;
 
-      <button onclick="alert('OMG no please dont')" class="contact-button" title="Contact me">
+      <button onclick="showContact()" title="Sign up for my totally hypothetical newsletter">
         <i class="fa fa-solid fa-envelope"></i>
-        <span>Contact me</span>
+        <span>Newsletter</span>
       </button>
 
     </div>
 
+  <!-- CONTACT FORM  -->
+
+      <div id="subscribe_form" class="d-none bg-white row py-5">
+        <div class="col-6 mx-auto text-center">
+          <form name="localStorageForm" action="" method="get">
+            <label class="text-dark" for="email">Email</label><br>
+            <input type="email" id="email" name="email" class="text-center rounded" size="35"><br><br>
+            <button type="submit" value="Send" onclick="saveData()" class="btn btn-dark">Subscribe</button>
+          </form>
+        </div>
+      </div>
+
     <div class="container">
+
       <section class="intro row m-3">
         <div class="col-12 col-md-6 offset-md-3">
           <h1 class="mt-5 mb-4">Hello <span id="greeting-icon"><i class="fa fa-solid fa-hand fa-shake" style="--fa-animation-duration: 30s; opacity: 0.5; font-size: 88%;"></i></span><br />I'm Steve Quilala</h1>
@@ -56,177 +72,29 @@
           <p><a href="https://stevequilala.wordpress.com" target="_blank">stevequilala.wordpress.com</a></p>
         </div>
       </section>
+
       <section class="row m-4">
-        <div class="col-12 col-md-6 offset-md-3 p-4 loves">
-          <h2 class="pb-2">Here are <span id="favs">###</span> of my favourite things...</h2>
-          <ul>
-            <li>Learning about new topics and industries</li>
-            <li>Purposeful, well-designed objects</li>
-            <li>Making new things</li>
-            <li>Improving and refining existing things</li>
-            <li>Appreciating the hard work, talent, skill, and dedication of other humans</li>
-            <li>Smart people who are also kind and caring</li>
-            <li>Great teamwork when everyone is in-sync and working together as one</li>
-            <li>Cats</li>
-            <li>Apple products</li>
-            <li>New York City</li>
-            <li>Honesty</li>
-            <li>Transparency</li>
-            <li>Authentic, trustworthy, and courageous leadership</li>
-            <li>Doing work that is fun and rewarding</li>
-            <li>People who are passionate and dedicated to their craft</li>
-            <li>Unselfish, virtuous, generous, loving strangers</li>
-            <li>Well thought-out, creative branding</li>
-            <li>Education and teaching</li>
-            <li>Learning through in-person lectures</li>
-            <li>Learning about laws and legal precedents that shape society</li>
-            <li>Complex people who are widely misunderstood, but are actually good inside</li>
-            <li>YouTube</li>
-            <li>Sinigang</li>
-            <li>Sushi</li>
-            <li>Kare-Kare</li>
-            <li>Uni sashimi</li>
-            <li>Church's chicken</li>
-            <li>Soft, medium length cardigans with pockets</li>
-            <li>Playing ball hockey with friends</li>
-            <li>Pho</li>
-            <li>Vancouver</li>
-            <li>Victoria</li>
-            <li>Boracay</li>
-            <li>Tofino</li>
-            <li>Walking around UBC</li>
-            <li>Perfect sunny side up fried eggs</li>
-            <li>Hot wings</li>
-            <li>Muhammad Ali</li>
-            <li>Steve Jobs</li>
-            <li>Watching old speeches and keynotes by Steve Jobs</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
-            <li>NewTown Bakery</li>
-            <li>Gardening</li>
-            <li>Beef brisket and wonton egg noodle soup</li>
-            <li>Water</li>
-            <li>Hamilton</li>
-            <li>Les Miserables</li>
-            <li>Barack Obama speeches</li>
-            <li>30 Rock</li>
-            <li>Community</li>
-            <li>Succession</li>
-            <li>Brooklyn 99</li>
-            <li>Every generation of Mac Mini</li>
-            <li>The 12-inch MacBook</li>
-            <li>The cylinder Mac Pro</li>
-            <li>The desk lamp iMac</li>
-            <li>Researching and investing in good companies</li>
-            <li>Wealthsimple</li>
-            <li>Wealthsimple Tax (formerly SimpleTax)</li>
-            <li>Dyson products</li>
-            <li>Podcasts</li>
-            <li>Oprah Supersoul Conversations</li>
-            <li>Documentaries</li>
-            <li>Filipino Rom Coms</li>
-            <li>Avengers Infinity War and Endgame</li>
-            <li>Snow. Tons of snow.</li>
-            <li>NBA Basketball</li>
-            <li>Charles Barkley</li>
-            <li>San Francisco</li>
-            <li>London</li>
-            <li>Long drives</li>
-            <li>Costco</li>
-            <li>Long bike rides</li>
-            <li>Playing ball hockey outside with friends for hours</li>
-            <li>The feeling of a one-timer slap shot and going post in</li>
-            <li>Nike</li>
-            <li>Patagonia</li>
-            <li>North Face</li>
-            <li>Shake Shack</li>
-            <li>Tupac Shakur</li>
-            <li>Earth, Wind, and Fire</li>
-            <li>Prince</li>
-            <li>Dave Chapelle</li>
-            <li>Adele</li>
-            <li>M.I.A.</li>
-            <li>Cardi B</li>
-            <li>StarCraft II</li>
-            <li>Baseball caps</li>
-            <li>Ribeye steaks</li>
-            <li>Anything made from titanium</li>
-            <li>Hanging out at shopping malls</li>
-            <li>Okanagan weather</li>
-            <li>Hard-working, gritty, grinder types of players in any sport</li>
-            <li>WordPress</li>
-            <li>London Drugs</li>
-            <li>Korean BBQ</li>
-            <li>Steel road bikes</li>
-            <li>Airports</li>
-            <li>SPAM</li>
-            <li>Wild 'N Out</li>
-            <li>Jollibee</li>
-            <li>Black skinny jeans</li>
-            <li>Good quality leather</li>
-            <li>Birkenstocks</li>
-            <li>Glasses</li>
-            <li>Lord of the Rings</li>
-            <li>Hardwood floors</li>
-            <li>Shopping on Amazon</li>
-            <li>Shopping at IKEA</li>
-            <li>Arby's double beef and cheddars</li>
-            <li>Long hot showers</li>
-            <li>Pepsi</li>
-            <li>A day of pitch and putt</li>
-            <li>Brene Brown</li>
-            <li>Mountain Equipment Co-op</li>
-            <li>NASA and space research</li>
-            <li>Fairdale road bikes</li>
-            <li>Reading/watching Bloomberg news</li>
-            <li>The feeling of a good feeble grind or barspin on a BMX</li>
-            <li>Haribo gummy cherries</li>
-            <li>Thor: Ragnarok</li>
-            <li>The Martian</li>
-            <li>Slumdog Millionaire</li>
-            <li>Space Jam</li>
-            <li>Forrest Gump</li>
-            <li>Quentin Tarantino movies</li>
-            <li>Three Idiots</li>
-            <li>Mythic Quest</li>
-            <li>Black Mirror</li>
-            <li>Chocolate covered almonds</li>
-            <li>Watching pro-level Terran vs. Zerg replays on YouTube</li>
-            <li>Grilled squid</li>
-            <li>Grilled mackarel</li>
-            <li>Cervélo bikes</li>
-            <li>Mizuno irons</li>
-            <li>Car camping</li>
-            <li>Ultralight fishing</li>
-            <li>The Keg Prime Rib</li>
-            <li>The Keg Billy Miner Pie</li>
-            <li>Hullo Ferries</li>
-            <li>Negitoro cones</li>
-            <li>Shohei Ohtani</li>
-            <li>Barcelo's Chicken</li>
-            <li>Chipotle</li>
-            <li>Chinatown BBQ</li>
-            <li>Ask for Luigi</li>
-            <li>Green mango and bagoong</li>
-            <li>AirTags</li>
-            <li>Warhammer 40K lore</li>
-            <li>Tortang talong</li>
-            <li>Visiting museums</li>
-            <li>Funko Pops</li>
-            <li>Open Core Legacy Patcher</li>
-            <li>Honda Trail CT 125 </li>
+        <div class="col-12 col-md-6 offset-md-3 p-4 favs-box">
+          <h2 class="pb-2">Here are <em id="favsTotal"></em> of my favourite things...</h2>
+          <ul id="favsList">
+
+              <!-- Populated by JSON -->
+
           </ul>
         </div>
       </section>
+
       <footer class="col-12 col-md-6 offset-md-3">
         <p class="text-center mb-5"><small><em>I live, work, and play in Vancouver and Nanaimo on the traditional, ancestral, unceded territory of the Snuneymuxw (Coast Salish), xʷməθkʷəy̓əm (Musqueam), Sḵwx̱wú7mesh (Squamish), and səlilwətaɬ (Tsleil-Waututh) Nations.</em></small> </p>
       </footer>
     </div>
 
+    <script src="assets/js/data.json"></script>
+    <script src="assets/js/arrays.js"></script>
     <script src="assets/js/conditionals.js"></script>
     <script src="assets/js/functions.js"></script>
-    <script src="assets/js/loops.js"></script>
-    <script src="assets/js/arrays.js"></script>
+    <script src="assets/js/storage.js"></script>
+    <script src="assets/js/loops.js" defer></script>
 
   </body>
 
