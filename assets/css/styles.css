@@ -97,14 +97,14 @@ button i.fa {
 }
 
 h1 {
-    font-family: 'Corporative', sans-serif;
+    font-family: 'Corporative', 'IBM Plex Sans', sans-serif;
     font-size: 3.75em;
     font-weight: 900;
     color: rgba(255, 255, 255, 1);
 }
 
 h2 {
-    font-family: 'Corporative', sans-serif;
+    font-family: 'Corporative', 'IBM Plex Sans', sans-serif;
     font-weight: 900;
     color: rgba(255, 255, 255, 1);
 }
