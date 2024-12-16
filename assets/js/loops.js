@@ -1,6 +1,6 @@
 
 // Only start after the whole DOM has loaded
-window.addEventListener("DOMContentLoaded", function(){
+document.addEventListener("DOMContentLoaded", function(){
 
 // Loop through all <li> tags and count 
     var favItems = document.querySelectorAll("ul#favsList li");
