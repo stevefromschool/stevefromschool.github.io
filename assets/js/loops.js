@@ -10,7 +10,7 @@ window.addEventListener("load", function(){
 
     // Count and insert into #favsTotal
     for (var i = 0; i < favItems.length; i++) {
-      document.getElementById("favsTotal").innerText = favItems.length;
+      document.getElementById("favsTotal").innerHTML = favItems.length;
     }
 
 });
