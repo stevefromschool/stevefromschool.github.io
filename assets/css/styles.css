@@ -62,6 +62,10 @@ body {
     color: rgb(245, 213, 33);
 }
 
+.seasonal-bg.christmas-theme .favs-box {
+    border: 1px solid green;
+}
+
 /* New Years Theme */
 .seasonal-bg.ny-theme {
     background-color: rgb(24, 24, 24);
