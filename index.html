@@ -62,26 +62,6 @@
               <!-- Populated by JSON -->
 
           </ul>
-          <script>
-        
-
-// Only start after the whole DOM has loaded
-document.addEventListener("DOMContentLoaded", function(){
-
-// Loop through all <li> tags and count 
-    var favItems = document.querySelectorAll("ul#favsList li");
-
-    // Get number through console
-    console.log(favItems.length);
-
-    // Count and insert into #favsTotal
-    for (var i = 0; i < favItems.length; i++) {
-      document.getElementById("favsTotal").innerHTML = favItems.length;
-    }
-
-});
-          
-          </script>
         </div>
       </section>
 
@@ -94,6 +74,7 @@ document.addEventListener("DOMContentLoaded", function(){
     <script src="assets/js/arrays.js"></script>
     <script src="assets/js/conditionals.js"></script>
     <script src="assets/js/functions.js"></script>
+    <script src="assets/js/loops.js"></script>
 
   </body>
 
