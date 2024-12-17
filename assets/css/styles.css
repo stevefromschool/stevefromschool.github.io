@@ -105,7 +105,7 @@ button i.fa {
 
 /* Christmas Theme */
 .seasonal-bg.christmas-theme {
-    background-color: rgb(145, 0, 0);
+    background-color: darkred;
 }
 
 .seasonal-bg.christmas-theme * {
@@ -122,7 +122,7 @@ button i.fa {
 }
 
 .seasonal-bg.christmas-theme .favs-box {
-    border: 2px dotted green;
+    border: 2px dotted limegreen;
 }
 
 .seasonal-bg.christmas-theme #greeting-icon .fa-hand {
