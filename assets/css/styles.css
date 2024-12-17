@@ -3,7 +3,7 @@ body {
     background-color: steelblue;
     color: rgba(255, 255, 255, 0.9);
     font-weight: 500;
-    transition: background-color 1s;
+    transition: background-color 0.75s;
 }
 
 h1 {
@@ -74,7 +74,7 @@ button i.fa {
 }
 
 .dark-bg * {
-    color: rgb(140, 140, 140);
+    color: rgb(200, 200, 200);
 }
 
 .dark-bg h1,
