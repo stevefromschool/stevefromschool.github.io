@@ -6,104 +6,6 @@ body {
     transition: background-color 1s;
 }
 
-.customizer span {
-    font-size: 1em;
-    padding: 0 4px; 
-}
-
-.dark-bg {
-    background-color: rgba(0, 0, 0, 1);
-}
-
-.dark-bg * { 
-    color: rgb(140, 140, 140);
-}
-
-.dark-bg h1,
-.dark-bg h2,
-.dark-bg button i,
-.dark-bg button small,
-.dark-bg #greeting-icon i,
-.dark-bg a {
-    color: rgb(150, 150, 150);
-}
-
-.seasonal-bg.winter-theme {
-    background-color: rgb(195, 235, 255);
-}
-
-.seasonal-bg.winter-theme * {
-    color: rgb(46, 76, 130);}
-
-.seasonal-bg.winter-theme h1,
-.seasonal-bg.winter-theme h2,
-.seasonal-bg.winter-theme button i,
-.seasonal-bg.winter-theme button small,
-.seasonal-bg.winter-theme #greeting-icon i,
-.seasonal-bg.winter-theme a {
-    color: rgb(119, 140, 205);
-}
-
-/* Christmas Theme */
-.seasonal-bg.christmas-theme {
-    background-color: rgb(145, 0, 0);
-}
-
-.seasonal-bg.christmas-theme * {
-    color: rgb(255, 255, 255);
-}
-
-.seasonal-bg.christmas-theme h1,
-.seasonal-bg.christmas-theme h2,
-.seasonal-bg.christmas-theme button i,
-.seasonal-bg.christmas-theme button small,
-.seasonal-bg.christmas-theme #greeting-icon i,
-.seasonal-bg.christmas-theme a {
-    color: rgb(245, 213, 33);
-}
-
-.seasonal-bg.christmas-theme .favs-box {
-    border: 4px dotted green;
-}
-
-.seasonal-bg.christmas-theme #greeting-icon .fa-hand{
-    color: rgb(245, 213, 33);
-}
-
-/* New Years Theme */
-.seasonal-bg.ny-theme {
-    background-color: rgb(24, 24, 24);
-}
-
-.seasonal-bg.ny-theme * {
-    color: rgb(198, 198, 198);
-}
-
-.seasonal-bg.ny-theme h1,
-.seasonal-bg.ny-theme h2,
-.seasonal-bg.ny-theme button i,
-.seasonal-bg.ny-theme button small,
-.seasonal-bg.ny-theme #greeting-icon i,
-.seasonal-bg.ny-theme a {
-    color: rgb(255, 216, 99);
-}
-
-button {
-    background-color: rgba(0, 0, 0, 0);
-    color: rgba(255, 255, 255, 0.75);
-    border: none;
-    text-align: center;
-    margin: 0 5px;
-}
-
-button:hover {
-    color: rgba(255, 255, 255, 1);
-}
-
-button i.fa {
-    font-size: 120%;
-}
-
 h1 {
     font-family: 'Corporative', 'IBM Plex Sans', sans-serif;
     font-size: 3.75em;
@@ -134,7 +36,7 @@ li {
 a {
     text-decoration: none;
     color: rgba(255, 255, 255);
-    border-bottom: 2px dotted rgba(255, 255, 255, 0.4);
+    border-bottom: 2px dotted rgba(255, 255, 255, 0.3);
 }
 
 small {
@@ -142,6 +44,105 @@ small {
 }
 
 .favs-box {
-    border: 1px solid rgb(255, 255, 255, 0.5);
+    border: 2px solid rgb(255, 255, 255, 0.2);
     border-radius: 6px;
+}
+
+.customizer span {
+    font-size: 1em;
+    padding: 0 4px;
+}
+
+button {
+    background-color: rgba(0, 0, 0, 0);
+    color: rgba(255, 255, 255, 0.75);
+    border: none;
+    text-align: center;
+    margin: 0 5px;
+}
+
+button:hover {
+    color: rgba(255, 255, 255, 1);
+}
+
+button i.fa {
+    font-size: 120%;
+}
+
+.dark-bg {
+    background-color: rgba(0, 0, 0, 1);
+}
+
+.dark-bg * {
+    color: rgb(140, 140, 140);
+}
+
+.dark-bg h1,
+.dark-bg h2,
+.dark-bg button i,
+.dark-bg button small,
+.dark-bg #greeting-icon i,
+.dark-bg a {
+    color: rgb(150, 150, 150);
+}
+
+.seasonal-bg.winter-theme {
+    background-color: rgb(195, 235, 255);
+}
+
+.seasonal-bg.winter-theme * {
+    color: rgb(46, 76, 130);
+}
+
+.seasonal-bg.winter-theme h1,
+.seasonal-bg.winter-theme h2,
+.seasonal-bg.winter-theme button i,
+.seasonal-bg.winter-theme button small,
+.seasonal-bg.winter-theme #greeting-icon i,
+.seasonal-bg.winter-theme a {
+    color: rgb(119, 140, 205);
+}
+
+/* Christmas Theme */
+.seasonal-bg.christmas-theme {
+    background-color: rgb(145, 0, 0);
+}
+
+.seasonal-bg.christmas-theme * {
+    color: rgb(255, 255, 255);
+}
+
+.seasonal-bg.christmas-theme h1,
+.seasonal-bg.christmas-theme h2,
+.seasonal-bg.christmas-theme button i,
+.seasonal-bg.christmas-theme button small,
+.seasonal-bg.christmas-theme #greeting-icon i,
+.seasonal-bg.christmas-theme a {
+    color: rgb(245, 213, 33);
+}
+
+.seasonal-bg.christmas-theme .favs-box {
+    border: 2px dotted green;
+}
+
+.seasonal-bg.christmas-theme #greeting-icon .fa-hand {
+    color: rgb(245, 213, 33);
+}
+
+/* New Years Theme */
+.seasonal-bg.ny-theme {
+    background-color: rgb(24, 24, 24);
+}
+
+.seasonal-bg.ny-theme * {
+    color: rgb(198, 198, 198);
+}
+
+.seasonal-bg.ny-theme h1,
+.seasonal-bg.ny-theme h2,
+.seasonal-bg.ny-theme button i,
+.seasonal-bg.ny-theme button small,
+.seasonal-bg.ny-theme #greeting-icon i,
+.seasonal-bg.ny-theme a {
+    color: rgb(255, 216, 99);
 }
