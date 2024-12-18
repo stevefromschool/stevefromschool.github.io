@@ -13,8 +13,3 @@ function seasonalMode() {
     seasonalPicker.classList.remove("default-bg");
     seasonalPicker.classList.toggle("seasonal-bg");
 }
-
-function showContact() {
-    var contactArea = document.querySelector("#subscribe_form");
-    contactArea.classList.toggle("d-none");
-}
