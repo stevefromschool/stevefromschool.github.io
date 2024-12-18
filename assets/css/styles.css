@@ -25,7 +25,7 @@ p {
 }
 
 ul {
-    list-style-type: circle;
+    list-style-type: square;
 }
 
 li {
@@ -144,10 +144,6 @@ button i.fa {
 
 .seasonal-bg.christmas-theme a {
     border-bottom: 2px dashed darkred;
-}
-
-.seasonal-bg.christmas-theme ul {
-    list-style-type: disc;
 }
 
 .seasonal-bg.christmas-theme li::marker {
