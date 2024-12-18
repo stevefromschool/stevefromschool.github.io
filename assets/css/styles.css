@@ -108,8 +108,10 @@ button i.fa {
     background-color: darkred;
 }
 
-.seasonal-bg.christmas-theme * {
-    color: rgb(255, 255, 255);
+.seasonal-bg.christmas-theme p,
+.seasonal-bg.christmas-theme li,
+.seasonal-bg.christmas-theme p {
+    color: rgba(255, 255, 255, 0.8);
 }
 
 .seasonal-bg.christmas-theme h1,
@@ -118,11 +120,12 @@ button i.fa {
 .seasonal-bg.christmas-theme button small,
 .seasonal-bg.christmas-theme #greeting-icon i,
 .seasonal-bg.christmas-theme a {
-    color: rgb(245, 213, 33);
+    color: limegreen;
+    opacity: 0.88;
 }
 
 .seasonal-bg.christmas-theme .favs-box {
-    border: 2px dotted limegreen;
+    border: 2px dotted rgb(245, 213, 33);;
 }
 
 .seasonal-bg.christmas-theme #greeting-icon .fa-hand {
