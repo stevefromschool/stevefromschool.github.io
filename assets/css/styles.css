@@ -157,6 +157,7 @@ button i.fa {
 
 .seasonal-bg.christmas-theme .favs-box {
     border: 2px dashed darkred;
+    border-radius: 12px;
 }
 
 .seasonal-bg.christmas-theme #greeting-icon .fa-hand {
