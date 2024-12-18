@@ -3,7 +3,7 @@
 var currentMonth = new Date().getMonth();
 
 // Test for other months
-var currentMonth = currentMonth - 10;
+// var currentMonth = currentMonth - 10;
 // console.log(currentMonth);
 
     // Apply different styles depending on current month
@@ -12,7 +12,7 @@ var currentMonth = currentMonth - 10;
         document.getElementById("bg-picker").classList.add('christmas-theme');
         document.querySelector("button.seasonal-button span").innerText = 'Christmas Theme';
         document.querySelector("button.seasonal-button i").classList.add('fa-gift');
-        
+
         } else if (currentMonth === 0) {
         // January
         document.getElementById("bg-picker").classList.add('ny-theme');

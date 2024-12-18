@@ -21,7 +21,6 @@ h2 {
 
 p {
     font-size: 1.3em;
-    line-height: 1.5;
     margin-bottom: 1em;
 }
 
@@ -37,10 +36,6 @@ a {
     text-decoration: none;
     color: rgba(255, 255, 255);
     border-bottom: 2px dotted rgba(255, 255, 255, 0.3);
-}
-
-small {
-    font-size: 75%;
 }
 
 .favs-box {
@@ -99,6 +94,7 @@ button i.fa {
 
 .seasonal-bg.winter-theme p,
 .seasonal-bg.winter-theme li,
+.seasonal-bg.winter-theme small,
 .seasonal-bg.winter-theme button {
     color: rgb(46, 76, 130);
 }
@@ -139,7 +135,7 @@ button i.fa {
 .seasonal-bg.christmas-theme h1,
 .seasonal-bg.christmas-theme h2,
 .seasonal-bg.christmas-theme button i,
-.seasonal-bg.christmas-theme button small,
+.seasonal-bg.christmas-theme small,
 .seasonal-bg.christmas-theme #greeting-icon i {
     color: darkred;
 }
@@ -153,7 +149,10 @@ button i.fa {
 }
 
 .seasonal-bg.christmas-theme li::marker {
-    color: darkred;
+    color: rgb(184, 5, 17);
+    content: '\f06b     ';
+    font-family: FontAwesome;
+    font-size: 80%;
 }
 
 .seasonal-bg.christmas-theme .favs-box {
