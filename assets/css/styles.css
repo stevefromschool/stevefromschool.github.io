@@ -1,9 +1,9 @@
 body {
     font-family: 'Corporative Alt Sans', 'IBM Plex Sans', sans-serif;
     background-color: steelblue;
-    color: rgba(255, 255, 255, 0.9);
+    color: rgba(255, 255, 255, 0.75);
     font-weight: 500;
-    transition: background-color 0.75s;
+    transition: background-color .5s;
 }
 
 h1 {
@@ -69,12 +69,15 @@ button i.fa {
     font-size: 120%;
 }
 
+/* ===== Dark mode ===== */
+
 .dark-bg {
     background-color: rgba(0, 0, 0, 1);
 }
 
-.dark-bg * {
-    color: rgb(200, 200, 200);
+.dark-bg p, 
+.dark-bg li {
+    color: rgb(150, 150, 150);
 }
 
 .dark-bg h1,
@@ -83,29 +86,47 @@ button i.fa {
 .dark-bg button small,
 .dark-bg #greeting-icon i,
 .dark-bg a {
-    color: rgb(150, 150, 150);
+    color: rgb(200, 200, 200);
 }
+
+/* ===== Seasonal Themes ===== */
+
+/* Winter */
 
 .seasonal-bg.winter-theme {
     background-color: rgb(195, 235, 255);
 }
 
-.seasonal-bg.winter-theme * {
+.seasonal-bg.winter-theme p,
+.seasonal-bg.winter-theme li,
+.seasonal-bg.winter-theme button {
     color: rgb(46, 76, 130);
 }
+
+.seasonal-bg.winter-theme li::marker {
+    color: rgb(157, 173, 223);    content: '\f2dc     ';
+    font-family: FontAwesome;    font-weight: lighter;
+    font-size: 90%;
+}
+
+.seasonal-bg.winter-theme a {
+    border-bottom: 2px dotted rgb(157, 173, 223)}
 
 .seasonal-bg.winter-theme h1,
 .seasonal-bg.winter-theme h2,
 .seasonal-bg.winter-theme button i,
-.seasonal-bg.winter-theme button small,
-.seasonal-bg.winter-theme #greeting-icon i,
+.seasonal-bg.winter-theme #greeting-icon i, 
 .seasonal-bg.winter-theme a {
     color: rgb(119, 140, 205);
 }
 
+.seasonal-bg.winter-theme .favs-box {
+    border: 2px dotted rgb(157, 173, 223)
+}
+
 /* Christmas Theme */
 .seasonal-bg.christmas-theme {
-    background-color: rgb(222, 222, 222);
+    background-color: rgb(255, 252, 228);
 }
 
 .seasonal-bg.christmas-theme p,
