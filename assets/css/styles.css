@@ -1,8 +1,9 @@
 body {
     font-family: 'Corporative Alt Sans', 'IBM Plex Sans', sans-serif;
+    font-weight: 500;
+    font-display: swap;
     background-color: steelblue;
     color: rgba(255, 255, 255, 0.75);
-    font-weight: 500;
     transition: background-color .5s;
 }
 
