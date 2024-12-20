@@ -222,7 +222,7 @@
         { "favItem" : "Mamalee chicken rice" },  
         { "favItem" : "Chinatown BBQ" },  
         { "favItem" : "Ask for Luigi" },  
-        { "favItem" : "Dairy Queen burgers" },  
+        { "favItem" : "Burgoo After School Specials" },  
         { "favItem" : "Green mango and bagoong" },  
         { "favItem" : "X-men" },  
         { "favItem" : "Top Gun: Maverick" },  
@@ -244,6 +244,7 @@
         { "favItem" : "Nintendo Wii"},
         { "favItem" : "Wii Sports"},
         { "favItem" : "Mario Kart"},
+        { "favItem" : "The Ocean Cleanup Project" },  
         { "favItem" : "Moneyball"},
         { "favItem" : "Straight Outta Compton"},
         { "favItem" : "Shimano and Daiwa ultralight fishing gear" },  
@@ -254,9 +255,11 @@
         { "favItem" : "Snowboarding" },  
         { "favItem" : "Starship Troopers" },  
         { "favItem" : "VS Code" },  
+        { "favItem" : "Google Chrome" },  
+        { "favItem" : "GitHub Pages" },  
         { "favItem" : "American Apparel" },  
-        { "favItem" : "McDonald's Ice Cream" },  
-        { "favItem" : "The Ocean Cleanup Project" },  
+        { "favItem" : "McDonald's Hot Fudge Sundae" },  
+        { "favItem" : "Dairy Queen burgers" },  
         { "favItem" : "Honda Trail CT 125"}
     ]
 }
