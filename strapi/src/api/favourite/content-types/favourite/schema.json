@@ -12,14 +12,10 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "categories": {
-      "type": "relation",
-      "relation": "manyToMany",
-      "target": "api::category.category",
-      "mappedBy": "favourites"
-    },
     "favourite": {
-      "type": "string"
+      "type": "text",
+      "unique": true,
+      "required": true
     }
   }
 }

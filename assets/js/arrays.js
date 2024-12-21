@@ -15,6 +15,6 @@ document.getElementById("favsList").innerHTML = favouriteList;
 }
 
 }
-xmlhttp.open("GET", "http://localhost:1337/api/favourites");
+xmlhttp.open("GET", "https://enduring-boot-afd22612ef.strapiapp.com/api/favourites");
 xmlhttp.send();
 
