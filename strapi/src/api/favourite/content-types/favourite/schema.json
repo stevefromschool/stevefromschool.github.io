@@ -13,7 +13,7 @@
   "pluginOptions": {},
   "attributes": {
     "favourite": {
-      "type": "text",
+      "type": "string",
       "unique": true,
       "required": true
     }
