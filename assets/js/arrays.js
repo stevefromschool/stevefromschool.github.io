@@ -15,6 +15,6 @@ document.getElementById("favsList").innerHTML = favouriteList;
 }
 
 }
-xmlhttp.open("GET", "https://enduring-boot-afd22612ef.strapiapp.com/api/favourites");
+xmlhttp.open("GET", "assets/js/data.json");
 xmlhttp.send();
 
