@@ -8,13 +8,13 @@ let favouriteList = "";
 
 for(let i = 0, l = myObj.data.length; i < l; i++) {
 
-favouriteList += "<li>" + myObj.data[i].favItem + "</li>"; 
+favouriteList += "<li>" + myObj.data[i].favourite + "</li>"; 
 
 document.getElementById("favsList").innerHTML = favouriteList;
 
 }
 
 }
-xmlhttp.open("GET", "assets/js/data.json");
+xmlhttp.open("GET", "http://localhost:1337/api/favourites");
 xmlhttp.send();
 
