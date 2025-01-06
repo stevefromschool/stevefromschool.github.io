@@ -169,10 +169,6 @@ button i.fa {
     background-color: rgb(24, 24, 24);
 }
 
-.seasonal-bg.ny-theme * {
-    color: rgb(198, 198, 198);
-}
-
 .seasonal-bg.ny-theme h1,
 .seasonal-bg.ny-theme h2,
 .seasonal-bg.ny-theme button i,
@@ -180,6 +176,14 @@ button i.fa {
 .seasonal-bg.ny-theme #greeting-icon i,
 .seasonal-bg.ny-theme a {
     color: rgb(255, 216, 99);
+}
+
+.seasonal-bg.ny-theme li::marker {
+    color: rgb(255, 216, 99);
+    content: '\e4dc     ';
+    font-family: FontAwesome;
+    font-weight: lighter;
+    font-size: 90%;
 }
 
 /* Valentines Theme */
