@@ -2,7 +2,7 @@
 
 const xmlhttp = new XMLHttpRequest();
 
-xmlhttp.open("GET", "assets/js/data.json", false);
+xmlhttp.open("GET", "data.json", false);
 
 xmlhttp.onload = function() {
     const myObj = JSON.parse(this.responseText);
