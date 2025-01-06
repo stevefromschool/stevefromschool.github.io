@@ -3,7 +3,7 @@
 var currentMonth = new Date().getMonth();
 
 // Test for other months
-// var currentMonth = currentMonth - 10;
+var currentMonth = currentMonth + 1;
 // console.log(currentMonth);
 
     // Apply different styles depending on current month
@@ -18,6 +18,12 @@ var currentMonth = new Date().getMonth();
         document.getElementById("bg-picker").classList.add('ny-theme');
         document.querySelector("button.seasonal-button span").innerText = "New Year's Theme";
         document.querySelector("button.seasonal-button i").classList.add('fa-champagne-glasses');
+
+        } else if (currentMonth === 1) {
+        // February
+        document.getElementById("bg-picker").classList.add('valentines-theme');
+        document.querySelector("button.seasonal-button span").innerText = "Valentine's Day Theme";
+        document.querySelector("button.seasonal-button i").classList.add('fa-heart');
 
         } else if (currentMonth >= 2 && currentMonth <= 4) {
         // Spring months March - May

@@ -90,7 +90,7 @@ button i.fa {
 /* Winter */
 
 .seasonal-bg.winter-theme {
-    background-color: rgb(195, 235, 255);
+    background-color: rgb(204, 240, 255);
 }
 
 .seasonal-bg.winter-theme p,
@@ -109,18 +109,19 @@ button i.fa {
 }
 
 .seasonal-bg.winter-theme a {
-    border-bottom: 2px dotted rgb(157, 173, 223)}
+    border-bottom: 1px solid rgb(157, 173, 223)}
 
 .seasonal-bg.winter-theme h1,
 .seasonal-bg.winter-theme h2,
 .seasonal-bg.winter-theme button i,
 .seasonal-bg.winter-theme #greeting-icon i, 
 .seasonal-bg.winter-theme a {
-    color: rgb(119, 140, 205);
+    color: rgb(112, 139, 219);
 }
 
 .seasonal-bg.winter-theme .favs-box {
-    border: 2px dotted rgb(157, 173, 223)
+    border: 1px solid rgb(157, 173, 223);
+    border-radius: 0;
 }
 
 /* Christmas Theme */
@@ -179,4 +180,44 @@ button i.fa {
 .seasonal-bg.ny-theme #greeting-icon i,
 .seasonal-bg.ny-theme a {
     color: rgb(255, 216, 99);
+}
+
+/* Valentines Theme */
+.seasonal-bg.valentines-theme {
+    background-color: pink;
+}
+
+.seasonal-bg.valentines-theme p,
+.seasonal-bg.valentines-theme li,
+.seasonal-bg.valentines-theme a,
+.seasonal-bg.valentines-theme button {
+    color: darkred;
+}
+
+.seasonal-bg.valentines-theme h1,
+.seasonal-bg.valentines-theme h2,
+.seasonal-bg.valentines-theme button i,
+.seasonal-bg.valentines-theme small,
+.seasonal-bg.valentines-theme #greeting-icon i {
+    color: darkred;
+}
+
+.seasonal-bg.valentines-theme a {
+    border-bottom: 2px dotted red;
+}
+
+.seasonal-bg.valentines-theme li::marker {
+    color: red;
+    content: '\f004     ';
+    font-family: FontAwesome;
+    font-size: 85%;
+}
+
+.seasonal-bg.valentines-theme .favs-box {
+    border: 2px dotted red;
+    border-radius: 12px;
+}
+
+.seasonal-bg.valentines-theme #greeting-icon .fa-hand {
+    color: red;
 }

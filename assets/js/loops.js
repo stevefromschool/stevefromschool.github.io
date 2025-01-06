@@ -7,7 +7,7 @@ window.addEventListener("load", function() {
     var favItems = document.querySelectorAll("ul#favsList li");
     const favsNumber = favItems.length
 
-    // Count up to the favsNumber, put it back in #favsTotal. Only start counting after it is in view (scroll spy). 
+    // Count up to the favsNumber, put it back in #favsTotal
       const countUp = new CountUp('favsTotal', favsNumber);
         if (!countUp.error) {
             countUp.start();
