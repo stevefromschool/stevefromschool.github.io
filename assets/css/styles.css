@@ -20,8 +20,12 @@ h2 {
 }
 
 p {
+<<<<<<< Updated upstream
     font-size: 1.13em;
     margin-bottom: 1.13em;
+=======
+    font-size: 1.2em;
+>>>>>>> Stashed changes
 }
 
 ul {
