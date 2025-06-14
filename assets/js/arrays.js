@@ -2,7 +2,7 @@
 
 const xmlhttp = new XMLHttpRequest();
 
-xmlhttp.open("GET", "data.json", false);
+xmlhttp.open("GET", "https://proud-approval-39492e9709.strapiapp.com/api/favourites", false);
 
 xmlhttp.onload = function() {
     const myObj = JSON.parse(this.responseText);
@@ -10,7 +10,7 @@ xmlhttp.onload = function() {
 
     for(let i = 0, l = myObj.data.length; i < l; i++) {
 
-        favouriteList += "<li>" + myObj.data[i].favourite + "</li>"; 
+        favouriteList += "<li>" + myObj.data[i].Name + "</li>"; 
 
         document.getElementById("favsList").innerHTML = favouriteList;
     }
