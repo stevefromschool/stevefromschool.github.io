@@ -275,7 +275,7 @@ button i.fa {
 .seasonal-bg.summer-theme li,
 .seasonal-bg.summer-theme a,
 .seasonal-bg.summer-theme button {
-    color: #183B4E;
+    color: #27548A;
 }
 
 .seasonal-bg.summer-theme h1,
@@ -287,7 +287,7 @@ button i.fa {
 }
 
 .seasonal-bg.summer-theme a {
-    border-bottom: 2px dotted #DDA853;
+    border-bottom: 2px dotted #183B4E;
 }
 
 .seasonal-bg.summer-theme li::marker {
