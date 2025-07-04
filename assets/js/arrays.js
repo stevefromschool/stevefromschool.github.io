@@ -10,7 +10,7 @@ xmlhttp.onload = function() {
 
     for(let i = 0, l = myObj.data.length; i < l; i++) {
 
-        favouriteList += "<li>" + myObj.data[i].favourite + "</li>"; 
+        favouriteList += "<li>" + myObj.data[i].Name + "</li>"; 
 
         document.getElementById("favsList").innerHTML = favouriteList;
     }
