@@ -101,6 +101,7 @@
         {"favourite": "The 12-inch MacBook" },
         {"favourite": "The 11-inch MacBook Air" },
         {"favourite": "The 13-inch M1 MacBook Air" },
+        {"favourite": "The 14-inch Base M4 MacBook Pro" },
         {"favourite": "The Magic Mouse" },
         {"favourite": "The Magic Trackpad" },
         {"favourite": "Dyson vacuum cleaners" },
@@ -193,7 +194,7 @@
         {"favourite": "Apple AirPods" },
         {"favourite": "Apple TV 4K" },
         {"favourite": "Microwaved corn on the cob" },
-        {"favourite": "6 minute, 30 second soft boiled eggs" },
+        {"favourite": "7 minute soft boiled eggs" },
         {"favourite": "Wool socks" },
         {"favourite": "Birkenstocks" },
         {"favourite": "Black skinny jeans" },
@@ -205,7 +206,7 @@
         {"favourite": "Apple CarPlay" },
         {"favourite": "Grilled squid" },
         {"favourite": "Grilled mackarel" },
-        {"favourite": "Cervélo bikes" },
+        {"favourite": "My grey Cervélo R2" },
         {"favourite": "Mizuno irons" },
         {"favourite": "Shopping on Amazon" },
         {"favourite": "Shopping at IKEA" },
@@ -279,6 +280,7 @@
         {"favourite": "The Ocean Cleanup Project" },
         {"favourite": "Moneyball"},
         {"favourite": "Straight Outta Compton"},
+        {"favourite": "Dolce and Gabbana Spaghetti"},
         {"favourite": "Shimano and Daiwa fishing gear" },
         {"favourite": "Visiting museums" },
         {"favourite": "Walking around UBC" },
@@ -317,5 +319,6 @@
         {"favourite": "iFixit tools" },
         {"favourite": "Kei trucks" },
         {"favourite": "Honda Trail CT 125"}
+        {"favourite": "ChatGPT"}
     ]
 }
