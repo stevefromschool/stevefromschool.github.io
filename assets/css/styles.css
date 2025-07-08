@@ -92,6 +92,14 @@ button i.fa {
     background-color: rgb(204, 240, 255);
 }
 
+.seasonal-bg.winter-theme h1,
+.seasonal-bg.winter-theme h2,
+.seasonal-bg.winter-theme button i,
+.seasonal-bg.winter-theme #greeting-icon i,
+.seasonal-bg.winter-theme a {
+    color: rgb(112, 139, 219);
+}
+
 .seasonal-bg.winter-theme p,
 .seasonal-bg.winter-theme li,
 .seasonal-bg.winter-theme small,
@@ -110,14 +118,6 @@ button i.fa {
 .seasonal-bg.winter-theme a {
     border-bottom: 1px solid rgb(157, 173, 223)}
 
-.seasonal-bg.winter-theme h1,
-.seasonal-bg.winter-theme h2,
-.seasonal-bg.winter-theme button i,
-.seasonal-bg.winter-theme #greeting-icon i, 
-.seasonal-bg.winter-theme a {
-    color: rgb(112, 139, 219);
-}
-
 .seasonal-bg.winter-theme .favs-box {
     border: 1px solid rgb(157, 173, 223);
     border-radius: 0;
@@ -128,19 +128,19 @@ button i.fa {
     background-color: rgb(255, 255, 240);
 }
 
-.seasonal-bg.christmas-theme p,
-.seasonal-bg.christmas-theme li,
-.seasonal-bg.christmas-theme a,
-.seasonal-bg.christmas-theme button {
-    color: green;
-}
-
 .seasonal-bg.christmas-theme h1,
 .seasonal-bg.christmas-theme h2,
 .seasonal-bg.christmas-theme button i,
 .seasonal-bg.christmas-theme small,
 .seasonal-bg.christmas-theme #greeting-icon i {
     color: darkred;
+}
+
+.seasonal-bg.christmas-theme p,
+.seasonal-bg.christmas-theme li,
+.seasonal-bg.christmas-theme a,
+.seasonal-bg.christmas-theme button {
+    color: green;
 }
 
 .seasonal-bg.christmas-theme a {
@@ -190,18 +190,18 @@ button i.fa {
     background-color: pink;
 }
 
-.seasonal-bg.valentines-theme p,
-.seasonal-bg.valentines-theme li,
-.seasonal-bg.valentines-theme a,
-.seasonal-bg.valentines-theme button {
-    color: darkred;
-}
-
 .seasonal-bg.valentines-theme h1,
 .seasonal-bg.valentines-theme h2,
 .seasonal-bg.valentines-theme button i,
 .seasonal-bg.valentines-theme small,
 .seasonal-bg.valentines-theme #greeting-icon i {
+    color: darkred;
+}
+
+.seasonal-bg.valentines-theme p,
+.seasonal-bg.valentines-theme li,
+.seasonal-bg.valentines-theme a,
+.seasonal-bg.valentines-theme button {
     color: darkred;
 }
 
@@ -231,19 +231,19 @@ button i.fa {
     background-color: #e2ffdf;
 }
 
-.seasonal-bg.spring-theme p,
-.seasonal-bg.spring-theme li,
-.seasonal-bg.spring-theme a,
-.seasonal-bg.spring-theme button {
-    color: #948f8c;
-}
-
 .seasonal-bg.spring-theme h1,
 .seasonal-bg.spring-theme h2,
 .seasonal-bg.spring-theme button i,
 .seasonal-bg.spring-theme small,
 .seasonal-bg.spring-theme #greeting-icon i {
     color: #8975b8;
+}
+
+.seasonal-bg.spring-theme p,
+.seasonal-bg.spring-theme li,
+.seasonal-bg.spring-theme a,
+.seasonal-bg.spring-theme button {
+    color: #948f8c;
 }
 
 .seasonal-bg.spring-theme a {
@@ -268,14 +268,7 @@ button i.fa {
 
 /* Summer Theme */
 .seasonal-bg.summer-theme {
-    background-color: #F3F3E0;
-}
-
-.seasonal-bg.summer-theme p,
-.seasonal-bg.summer-theme li,
-.seasonal-bg.summer-theme a,
-.seasonal-bg.summer-theme button {
-    color: #27548A;
+    background-color: #feffea;
 }
 
 .seasonal-bg.summer-theme h1,
@@ -283,25 +276,32 @@ button i.fa {
 .seasonal-bg.summer-theme button i,
 .seasonal-bg.summer-theme small,
 .seasonal-bg.summer-theme #greeting-icon i {
-    color: #27548A;
+    color: #ff6969;
+}
+
+.seasonal-bg.summer-theme p,
+.seasonal-bg.summer-theme li,
+.seasonal-bg.summer-theme a,
+.seasonal-bg.summer-theme button {
+    color: #FF8080;
 }
 
 .seasonal-bg.summer-theme a {
-    border-bottom: 2px dotted #183B4E;
+    border-bottom: 2px dotted #FF8080;
 }
 
 .seasonal-bg.summer-theme li::marker {
-    color: #DDA853;
+    color: #FFB823;
     content: '\f185     ';
     font: var(--fa-font-solid);
     font-size: 85%;
 }
 
 .seasonal-bg.summer-theme .favs-box {
-    border: 2px dotted #DDA853;
+    border: 2px dotted #FFB823;
     border-radius: 12px;
 }
 
 .seasonal-bg.summer-theme #greeting-icon .fa-hand {
-    color: #DDA853;
+    color: #FFB823;
 }
