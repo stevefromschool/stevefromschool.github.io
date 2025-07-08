@@ -61,7 +61,7 @@ button:hover {
 }
 
 button i.fa {
-    font-size: 120%;
+    font-size: 1em;
 }
 
 /* ===== Dark mode ===== */
@@ -112,7 +112,6 @@ button i.fa {
     content: '\f2dc     ';
     font-family: FontAwesome;    
     font-weight: lighter;
-    font-size: 90%;
 }
 
 .seasonal-bg.winter-theme a {
@@ -151,7 +150,6 @@ button i.fa {
     color: rgb(184, 5, 17);
     content: '\f06b     ';
     font-family: FontAwesome;
-    font-size: 85%;
 }
 
 .seasonal-bg.christmas-theme .favs-box {
@@ -182,7 +180,6 @@ button i.fa {
     content: '\e4dc     ';
     font-family: FontAwesome;
     font-weight: lighter;
-    font-size: 90%;
 }
 
 /* Valentines Theme */
@@ -213,7 +210,6 @@ button i.fa {
     color: red;
     content: '\f004     ';
     font-family: FontAwesome;
-    font-size: 85%;
 }
 
 .seasonal-bg.valentines-theme .favs-box {
@@ -254,7 +250,6 @@ button i.fa {
     color: #d0adb1;
     content: '\f4d8     ';
     font-family: FontAwesome;
-    font-size: 85%;
 }
 
 .seasonal-bg.spring-theme .favs-box {
@@ -294,7 +289,6 @@ button i.fa {
     color: #FFB823;
     content: '\f185     ';
     font: var(--fa-font-solid);
-    font-size: 85%;
 }
 
 .seasonal-bg.summer-theme .favs-box {
@@ -334,7 +328,6 @@ button i.fa {
     color: #DE8F5F;
     content: '\f06c     ';
     font: var(--fa-font-solid);
-    font-size: 85%;
 }
 
 .seasonal-bg.autumn-theme .favs-box {
