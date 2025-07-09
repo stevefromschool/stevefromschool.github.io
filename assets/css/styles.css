@@ -44,7 +44,7 @@ a {
 }
 
 .theme-bar span {
-    font-size: 0.8em;
+    font-size: 0.9em;
     padding: 0 3px;
 }
 
@@ -61,7 +61,7 @@ button:hover {
 }
 
 button i.fa {
-    font-size: 0.8em;
+    font-size: 0.9em;
 }
 
 /* ===== Dark mode ===== */
