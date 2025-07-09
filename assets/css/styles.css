@@ -35,7 +35,7 @@ li {
 a {
     text-decoration: none;
     color: rgba(255, 255, 255);
-    border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+    border-bottom: 2px dashed rgba(255, 255, 255, 0.3);
 }
 
 .favs-box {
@@ -203,7 +203,7 @@ button i.fa {
 }
 
 .seasonal-bg.valentines-theme a {
-    border-bottom: 2px dotted red;
+    border-bottom: 2px dashed red;
 }
 
 .seasonal-bg.valentines-theme li::marker {
@@ -243,7 +243,7 @@ button i.fa {
 }
 
 .seasonal-bg.spring-theme a {
-    border-bottom: 2px dotted #d0adb1;
+    border-bottom: 2px dashed #d0adb1;
 }
 
 .seasonal-bg.spring-theme li::marker {
@@ -282,7 +282,7 @@ button i.fa {
 }
 
 .seasonal-bg.summer-theme a {
-    border-bottom: 1px solid #3D74B6;
+    border-bottom: 2px dashed #3D74B6;
 }
 
 .seasonal-bg.summer-theme li::marker {
@@ -322,7 +322,7 @@ button i.fa {
 }
 
 .seasonal-bg.autumn-theme a {
-    border-bottom: 2px dotted #DE8F5F;
+    border-bottom: 2px dashed #DE8F5F;
 }
 
 .seasonal-bg.autumn-theme li::marker {
