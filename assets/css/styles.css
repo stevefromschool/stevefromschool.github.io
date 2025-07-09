@@ -44,8 +44,8 @@ a {
 }
 
 .theme-bar span {
-    font-size: 0.9em;
-    padding: 0 4px;
+    font-size: 0.8em;
+    padding: 0 3px;
 }
 
 button {
@@ -61,7 +61,7 @@ button:hover {
 }
 
 button i.fa {
-    font-size: 1em;
+    font-size: 0.8em;
 }
 
 /* ===== Dark mode ===== */
@@ -263,7 +263,7 @@ button i.fa {
 
 /* Summer Theme */
 .seasonal-bg.summer-theme {
-    background-color: #e2fff9;
+    background-color: #FFFBE6;
 }
 
 .seasonal-bg.summer-theme h1,
@@ -271,33 +271,34 @@ button i.fa {
 .seasonal-bg.summer-theme button i,
 .seasonal-bg.summer-theme small,
 .seasonal-bg.summer-theme #greeting-icon i {
-    color: #ff6969;
+    color: #347928;
 }
 
 .seasonal-bg.summer-theme p,
 .seasonal-bg.summer-theme li,
 .seasonal-bg.summer-theme a,
 .seasonal-bg.summer-theme button {
-    color: #ff6969;
+    color: #347928;
 }
 
 .seasonal-bg.summer-theme a {
-    border-bottom: 2px dotted #FFB823;
+    border-bottom: 2px dotted #FF9100;
 }
 
 .seasonal-bg.summer-theme li::marker {
-    color: #FFB823;
+    color: #FF9100;
     content: '\f185     ';
+    font-family: FontAwesome;
     font: var(--fa-font-solid);
 }
 
 .seasonal-bg.summer-theme .favs-box {
-    border: 2px dotted #FFB823;
+    border: 2px dotted #FF9100;
     border-radius: 12px;
 }
 
 .seasonal-bg.summer-theme #greeting-icon .fa-hand {
-    color: #FFB823;
+    color: #FF9100;
 }
 
 /* Autumn Theme */
@@ -327,6 +328,7 @@ button i.fa {
 .seasonal-bg.autumn-theme li::marker {
     color: #DE8F5F;
     content: '\f06c     ';
+    font-family: FontAwesome;
     font: var(--fa-font-solid);
 }
 
