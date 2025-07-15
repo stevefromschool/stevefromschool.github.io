@@ -44,26 +44,30 @@ a {
     border-radius: 12px;
 }
 
-.theme-bar span {
-    font-size: 0.9em;
-    padding: 0 5px;
+.theme-bar button .small {
+    font-size: 0.85em;
 }
 
 button {
     background-color: rgba(0, 0, 0, 0);
-    color: rgba(255, 255, 255, 0.75);
-    border: none;
+    color: rgba(255, 255, 255, 0.6);
+    border: 0;
+    border-bottom: 2px solid rgba(0, 0, 0, 0);
     text-align: center;
-    margin: 0 5px;
 }
 
 button:hover {
     color: rgba(255, 255, 255, 1);
 }
 
-button i.fa {
-    font-size: 0.9em;
+button p:active {
+    border-bottom: 2px solid rgba(200, 200, 200, 0.5);
 }
+
+button p.active {
+    border-bottom: 2px solid rgba(200, 200, 200, 1);
+}
+
 
 /* ===== Dark mode ===== */
 
