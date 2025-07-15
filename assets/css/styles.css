@@ -154,7 +154,7 @@ button i.fa {
 }
 
 .seasonal-bg.christmas-theme .favs-box {
-    border: 2px dashed darkred;
+    border: 2px dotted darkred;
     border-radius: 12px;
 }
 
@@ -283,7 +283,7 @@ button i.fa {
 }
 
 .seasonal-bg.summer-theme a {
-    border-bottom: 2px dashed #DDA853;
+    border-bottom: 2px dotted #DDA853;
 }
 
 .seasonal-bg.summer-theme li::marker {
@@ -323,7 +323,7 @@ button i.fa {
 }
 
 .seasonal-bg.autumn-theme a {
-    border-bottom: 2px dashed #DE8F5F;
+    border-bottom: 2px dotted #DE8F5F;
 }
 
 .seasonal-bg.autumn-theme li::marker {
@@ -334,7 +334,7 @@ button i.fa {
 }
 
 .seasonal-bg.autumn-theme .favs-box {
-    border: 2px dotted #DE8F5F;
+    border: 2px solid #DE8F5F;
     border-radius: 12px;
 }
 
