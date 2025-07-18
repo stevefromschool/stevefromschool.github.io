@@ -52,20 +52,13 @@ button {
     background-color: rgba(0, 0, 0, 0);
     color: rgba(255, 255, 255, 0.6);
     border: 0;
-    border-bottom: 2px solid rgba(0, 0, 0, 0);
+    border-bottom: 3px solid rgba(0, 0, 0, 0);
     text-align: center;
-}
-
-button:hover {
-    color: rgba(255, 255, 255, 1);
-}
-
-button p:active {
-    border-bottom: 2px solid rgba(200, 200, 200, 0.5);
+    padding: 
 }
 
 button p.active {
-    border-bottom: 2px solid rgba(200, 200, 200, 1);
+    border-bottom: 3px solid rgba(200, 200, 200, 0.8);
 }
 
 
