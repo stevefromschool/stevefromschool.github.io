@@ -8,7 +8,7 @@ body {
 
 h1 {
     font-family: 'Corporative', 'IBM Plex Sans', sans-serif;
-    font-size: 3.5em;
+    font-size: 3.5rem;
     font-weight: 900;
     color: rgba(255, 255, 255, 1);
 }
@@ -16,11 +16,12 @@ h1 {
 h2 {
     font-family: 'Corporative', 'IBM Plex Sans', sans-serif;
     font-weight: 900;
+    font-size: 1.8rem;
     color: rgba(255, 255, 255, 1);
 }
 
 p {
-    font-size: 1.27em;
+    font-size: 1.27rem;
 }
 
 ul {
@@ -28,8 +29,8 @@ ul {
 }
 
 li {
-    font-size: 1.1em;
-    margin-bottom: .5em;
+    font-size: 1.1rem;
+    margin-bottom: .5rem;
     line-height: 1.33;
 }
 
@@ -45,7 +46,7 @@ a {
 }
 
 .theme-bar button .small {
-    font-size: 0.85em;
+    font-size: 0.85rem;
 }
 
 button {
