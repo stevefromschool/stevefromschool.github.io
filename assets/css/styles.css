@@ -2,7 +2,7 @@ body {
     font-family: 'Corporative Alt Sans', 'IBM Plex Sans', sans-serif;
     font-weight: 500;
     background-color: rgb(55, 134, 171);
-    color: rgba(255, 255, 255, 0.75);
+    color: rgba(255, 255, 255, 0.6);
     transition: all .6s;
 }
 
@@ -75,12 +75,12 @@ button p.active {
 .dark-bg button small,
 .dark-bg #greeting-icon i,
 .dark-bg a {
-    color: rgb(175, 175, 175);
+    color: rgb(150, 150, 150);
 }
 
 .dark-bg p,
 .dark-bg li {
-    color: rgb(150, 150, 150);
+    color: rgb(120, 120, 120);
 }
 
 /* ===== Seasonal Themes ===== */
