@@ -1,4 +1,4 @@
-import { CountUp } from '../countUp.js-2.8.0/dist/countUp.min.js';
+import { CountUp } from '../countUp.js-2.9.0/dist/countUp.min.js';
 
 // Only start after the whole DOM has loaded
 window.addEventListener("load", function() {
