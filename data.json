@@ -237,6 +237,7 @@
 		{"Name": "NASA" },
 		{"Name": "Learning about space research" },
 		{"Name": "Fairdale road bikes" },
+		{"Name": "K-Pop Demon Hunters" },
 		{"Name": "Reading/watching Bloomberg news" },
 		{"Name": "The feeling of a good feeble grind or barspin on a BMX" },
 		{"Name": "KitKat bars" },
@@ -370,7 +371,6 @@
 		{"Name": "The Tim Duncan era San Antonio Spurs" },
 		{"Name": "Japanese Kei trucks and camper vans" },
 		{"Name": "Honda Trail CT 125"},
-		{"Name": "ChatGPT"},
-		{"Name": "'Your Idol' by Saja Boys from K-Pop Demon Hunters"}
+		{"Name": "ChatGPT"}
 	]
 }
