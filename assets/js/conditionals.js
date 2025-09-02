@@ -31,13 +31,13 @@ var currentMonth = new Date().getMonth();
         document.querySelector("button.seasonal-button p").innerText = 'Spring';
         document.querySelector("button.seasonal-button i").classList.add('fa-seedling');
 
-        } else if (currentMonth >= 5 && currentMonth <= 7) {
+        } else if (currentMonth >= 5 && currentMonth <= 8) {
         // Summer months June - August
         document.getElementById("bg-picker").classList.add('summer-theme');
         document.querySelector("button.seasonal-button p").innerText = 'Summer';
         document.querySelector("button.seasonal-button i").classList.add('fa-umbrella-beach');
 
-        } else if (currentMonth >= 8 && currentMonth <= 10) {
+        } else if (currentMonth >= 9 && currentMonth <= 10) {
         // Autumn months September - November
         document.getElementById("bg-picker").classList.add('autumn-theme');
         document.querySelector("button.seasonal-button p").innerText = 'Autumn';
