@@ -32,13 +32,13 @@ var currentMonth = new Date().getMonth();
         document.querySelector("button.seasonal-button i").classList.add('fa-seedling');
 
         } else if (currentMonth >= 5 && currentMonth <= 8) {
-        // Summer months June - August
+        // Summer months June - September
         document.getElementById("bg-picker").classList.add('summer-theme');
         document.querySelector("button.seasonal-button p").innerText = 'Summer';
         document.querySelector("button.seasonal-button i").classList.add('fa-umbrella-beach');
 
         } else if (currentMonth >= 9 && currentMonth <= 10) {
-        // Autumn months September - November
+        // Autumn months October - November
         document.getElementById("bg-picker").classList.add('autumn-theme');
         document.querySelector("button.seasonal-button p").innerText = 'Autumn';
         document.querySelector("button.seasonal-button i").classList.add('fa-wind');
