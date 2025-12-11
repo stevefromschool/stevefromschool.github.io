@@ -264,6 +264,7 @@
 		{"Name": "Chipotle" },
 		{"Name": "Polarized sunglasses" },
 		{"Name": "Gore-Tex jackets" },
+		{"Name": "Lululemon" },
 		{"Name": "Chinatown BBQ" },
 		{"Name": "Bon-Ga Gamjatang (Spicy Pork Bone Soup)" },
 		{"Name": "Mamalee chicken rice" },
@@ -324,6 +325,7 @@
 		{"Name": "Dairy Queen burgers" },
 		{"Name": "Visiting museums" },
 		{"Name": "Walking around UBC" },
+		{"Name": "Sushi Yan on Robson Street" },		
 		{"Name": "Funko Pops" },		
 		{"Name": "Lonsdale Quay and Lonsdale area" },
 		{"Name": "Xiao Long Bao dumplings" },
@@ -387,6 +389,9 @@
 		{"Name": "Honda Trail CT 125"},
 		{"Name": "Ice cream cake"},
 		{"Name": "Shoes with Vibram soles"},
-		{"Name": "ChatGPT"}
+		{"Name": "ChatGPT"},
+		{"Name": "Zorin OS Linux"},
+		{"Name": "Fedora Workstation Linux"},
+		{"Name": "Cream Pony chicken sandwiches"}
 	]
 }
