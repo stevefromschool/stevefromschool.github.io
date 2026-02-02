@@ -16,13 +16,13 @@ var currentMonth = new Date().getMonth();
         } else if (currentMonth === 0) {
         // January
         document.getElementById("bg-picker").classList.add('ny-theme');
-        document.querySelector("button.seasonal-button p").innerText = "New Year's";
+        document.querySelector("button.seasonal-button p").innerText = "New Years";
         document.querySelector("button.seasonal-button i").classList.add('fa-champagne-glasses');
 
         } else if (currentMonth === 1) {
         // February
         document.getElementById("bg-picker").classList.add('valentines-theme');
-        document.querySelector("button.seasonal-button p").innerText = "Valentine's Day";
+        document.querySelector("button.seasonal-button p").innerText = "Valentines";
         document.querySelector("button.seasonal-button i").classList.add('fa-heart');
 
         } else if (currentMonth >= 2 && currentMonth <= 4) {
