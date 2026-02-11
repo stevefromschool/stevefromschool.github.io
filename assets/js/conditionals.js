@@ -22,7 +22,7 @@ var currentMonth = new Date().getMonth();
         } else if (currentMonth === 1) {
         // February
         document.getElementById("bg-picker").classList.add('valentines-theme');
-        document.querySelector("button.seasonal-button p").innerText = "Valentines";
+        document.querySelector("button.seasonal-button p").innerText = "Valentine's";
         document.querySelector("button.seasonal-button i").classList.add('fa-heart');
 
         } else if (currentMonth >= 2 && currentMonth <= 4) {
