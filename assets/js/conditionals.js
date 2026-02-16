@@ -3,7 +3,7 @@
 var currentMonth = new Date().getMonth();
 
 // Test for other months
-var currentMonth = currentMonth + 2;
+// var currentMonth = currentMonth + 2;
 // console.log(currentMonth);
 
     // Apply different styles depending on current month
