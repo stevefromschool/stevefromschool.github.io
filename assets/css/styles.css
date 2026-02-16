@@ -1,7 +1,7 @@
 body {
     font-family: 'Corporative Alt Sans', 'IBM Plex Sans', sans-serif;
     font-weight: 500;
-    background-color: rgb(55, 134, 171);
+    background-color: #0f4e83;
     color: rgba(255, 255, 255, 0.6);
     transition: all .6s;
 }
@@ -90,18 +90,20 @@ button p.active {
 .dark-bg button small,
 .dark-bg #greeting-icon i,
 .dark-bg a {
-    color: rgb(150, 150, 150);
+    color: rgb(160, 160, 160);
 }
 
 .dark-bg p,
 .dark-bg li {
-    color: rgb(120, 120, 120);
+    color: rgb(190, 190, 190);
 }
+
+
 
 /* ===== Seasonal Themes ===== */
 
-/* Winter */
 
+/* Winter Theme */
 .seasonal-bg.winter-theme {
     background-color: rgb(204, 240, 255);
 }
@@ -175,6 +177,7 @@ button p.active {
     color: grey;
 }
 
+
 /* New Years Theme */
 .seasonal-bg.ny-theme {
     background-color: rgb(24, 24, 24);
@@ -196,7 +199,7 @@ button p.active {
     font-weight: lighter;
 }
 
-/* Valentines Theme */
+/* Valentine's Theme */
 .seasonal-bg.valentines-theme {
     background-color: pink;
 }
@@ -238,7 +241,7 @@ button p.active {
 
 /* Spring Theme */
 .seasonal-bg.spring-theme {
-    background-color: #e2ffdf;
+    background-color: #e7feff;
 }
 
 .seasonal-bg.spring-theme h1,
@@ -246,34 +249,75 @@ button p.active {
 .seasonal-bg.spring-theme button i,
 .seasonal-bg.spring-theme small,
 .seasonal-bg.spring-theme #greeting-icon i {
-    color: #8975b8;
+    color: #47b843;
 }
 
 .seasonal-bg.spring-theme p,
 .seasonal-bg.spring-theme li,
 .seasonal-bg.spring-theme a,
 .seasonal-bg.spring-theme button {
-    color: #948f8c;
+    color: #ad4e17;
 }
 
 .seasonal-bg.spring-theme a {
-    border-bottom: 2px dashed #d0adb1;
+    border-bottom: 2px dotted #c2a99b;
 }
 
 .seasonal-bg.spring-theme li::marker {
-    color: #d0adb1;
+    color: #4ddf48;
     content: '\f4d8     ';
     font-family: FontAwesome;
 }
 
 .seasonal-bg.spring-theme .favs-box {
-    border: 2px dotted #d0adb1;
+    border: 2px dotted #c2a99b;
     border-radius: 12px;
 }
 
 .seasonal-bg.spring-theme #greeting-icon .fa-hand {
-    color: #d0adb1;
+    color: #c2a99b;
 }
+
+
+/* Easter Theme */
+.seasonal-bg.easter-theme {
+    background-color: #fffbea;
+}
+
+.seasonal-bg.easter-theme h1,
+.seasonal-bg.easter-theme h2,
+.seasonal-bg.easter-theme button i,
+.seasonal-bg.easter-theme small,
+.seasonal-bg.easter-theme #greeting-icon i {
+    color: #16bb81;
+}
+
+.seasonal-bg.easter-theme p,
+.seasonal-bg.easter-theme li,
+.seasonal-bg.easter-theme a,
+.seasonal-bg.easter-theme button {
+    color: #6b6b6b;
+}
+
+.seasonal-bg.easter-theme a {
+    border-bottom: 2px dotted #FF824C;
+}
+
+.seasonal-bg.easter-theme li::marker {
+    color: #FF824C;
+    content: '\f787     ';
+    font-family: FontAwesome;
+}
+
+.seasonal-bg.easter-theme .favs-box {
+    border: 2px dotted #FF824C;
+    border-radius: 12px;
+}
+
+.seasonal-bg.easter-theme #greeting-icon .fa-hand {
+    color: #FF824C;
+}
+
 
 /* Summer Theme */
 .seasonal-bg.summer-theme {
