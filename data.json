@@ -265,7 +265,7 @@
 		{"Name": "Green mango and bagoong" },
 		{"Name": "Doogh yogurt drinks" },
 		{"Name": "Being on my laptop at a random coffee shop and trying to learn something technical or studying something new" },
-		{"Name": "Alt bikepacking/commuter road bike setups rocking front baskets" },
+		{"Name": "Alt bikepacking/commuter bikes with front baskets" },
 		{"Name": "Chilling and walking around Whistler village in the summer" },
 		{"Name": "Hamilton" },
 		{"Name": "Les Miserables (live theatre)" },
@@ -461,7 +461,7 @@
 		{"Name": "Fedora Workstation Linux"},
 		{"Name": "Shoes with Vibram soles"},
 		{"Name": "ChatGPT"},
-		{"Name": "Friction shifting on road bikes"},
+		{"Name": "Friction shifters"},
 		{"Name": "Rainbow RGB lighting (sometimes)"},
 		{"Name": "Soma Fabrications"},
 		{"Name": "New Zealand and Australia meat pies"},
@@ -471,6 +471,7 @@
 		{"Name": "Gary's Kettle Corn"},
 		{"Name": "Tiger Balm"},
 		{"Name": "Uniball Vision pens"},
-		{"Name": "GNOME Extensions"}
+		{"Name": "GNOME Extensions"},
+		{"Name": "Yowamushi Pedal"}
 	]
 }
