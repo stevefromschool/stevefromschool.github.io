@@ -3,7 +3,7 @@ body {
     font-weight: 500;
     background-color: #0f6476;
     color: rgba(255, 255, 255, 0.6);
-    transition: all .6s;
+    transition: all .5s;
 }
 
 h1 {
@@ -361,7 +361,7 @@ button p.active {
 
 /* Autumn Theme */
 .seasonal-bg.autumn-theme {
-    background-color: #4b2020;
+    background-color: #160902;
 }
 
 .seasonal-bg.autumn-theme h1,
@@ -369,7 +369,7 @@ button p.active {
 .seasonal-bg.autumn-theme button i,
 .seasonal-bg.autumn-theme small,
 .seasonal-bg.autumn-theme #greeting-icon i {
-    color: #D6D46D;
+    color: #A92505;
 }
 
 .seasonal-bg.autumn-theme p,
