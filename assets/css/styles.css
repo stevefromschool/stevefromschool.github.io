@@ -361,7 +361,7 @@ button p.active {
 
 /* Autumn Theme */
 .seasonal-bg.autumn-theme {
-    background-color: #160902;
+    background-color: #100803;
 }
 
 .seasonal-bg.autumn-theme h1,
@@ -385,7 +385,7 @@ button p.active {
 
 .seasonal-bg.autumn-theme li::marker {
     color: #DE8F5F;
-    content: '\f06c     ';
+    content: '\f1bb     ';
     font-family: FontAwesome;
     font: var(--fa-font-solid);
 }
